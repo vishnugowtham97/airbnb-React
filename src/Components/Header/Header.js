@@ -25,8 +25,10 @@ const Header = () => {
         <div className="header_right">
           <p>Become a host</p>
           <LanguageIcon />
-          <ExpandMoreIcon />
-          <Avatar />
+          <div className="header_profile">
+            <ExpandMoreIcon className="expandmore-icon" />
+            <Avatar className="avatar" />
+          </div>
         </div>
       </header>
     </div>

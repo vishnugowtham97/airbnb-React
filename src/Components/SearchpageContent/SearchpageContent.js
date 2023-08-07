@@ -1,6 +1,9 @@
 import React from "react";
 import "./SearchpageContent.css";
+
 import { FavoriteBorder, Star } from "@mui/icons-material";
+import { Button } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 
 const SearchpageContent = ({
   src,
@@ -11,6 +14,7 @@ const SearchpageContent = ({
   price,
   total,
 }) => {
+  const navigate = useNavigate();
   return (
     <div className="searchpage-content">
       <img src={src} alt="" />
@@ -28,6 +32,9 @@ const SearchpageContent = ({
             <p>
               <strong>{star}</strong>
             </p>
+            <Button variant="outlined" onClick={() => navigate("/rooms")}>
+              View
+            </Button>
           </div>
           <div className="searchpage_prices">
             <h3>{price}</h3>
