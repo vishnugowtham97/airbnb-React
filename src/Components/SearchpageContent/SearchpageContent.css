@@ -1,0 +1,77 @@
+.searchpage-content {
+  display: flex;
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  opacity: 1;
+  cursor: pointer;
+  text-align: left;
+}
+
+.searchpage-content:hover {
+  opacity: 0.8;
+}
+
+.searchpage-content > img {
+  height: 200px;
+  width: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.searchpage_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.searchpage_heart {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+
+.searchpage_heart:hover {
+  color: red;
+}
+
+.searchpage_infotop {
+  width: 40vw;
+}
+
+.searchpage_infotop > h3 {
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.searchpage_infotop > p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: gray;
+}
+
+.searchpage_infobottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchpage_stars {
+  color: red;
+}
+
+.searchpage_star {
+  display: flex;
+  align-items: center;
+}
+
+.searchpage_prices > p {
+  text-align: right;
+}
+
+.searchpage_prices {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
