@@ -23,6 +23,7 @@ const Search = () => {
         star={4.73}
         price="₹9,452 / night"
         total="₹28,458 total"
+        path="/appartment"
       />
       <SearchpageContent
         src="https://a0.muscache.com/im/pictures/65fe1c21-0694-4571-bb64-fb9352cdcfcb.jpg?im_w=720"
@@ -32,6 +33,7 @@ const Search = () => {
         star={3.93}
         price="₹8,482 / night"
         total="₹25,125 total"
+        path="/villa"
       />
       <SearchpageContent
         src="https://a0.muscache.com/im/pictures/miso/Hosting-738938787052681216/original/2ab5be30-f8a2-4bb3-9b5a-a3de045a11f8.jpeg?im_w=720"
@@ -41,6 +43,7 @@ const Search = () => {
         star={4.26}
         price="₹6,154 / night"
         total="₹18,250 total"
+        path="/house"
       />
       <SearchpageContent
         src="https://a0.muscache.com/im/pictures/miso/Hosting-45076629/original/8906b4db-21fd-4bf3-8619-0492981c4ea6.png?im_w=720"
@@ -50,6 +53,7 @@ const Search = () => {
         star={4.42}
         price="₹5,999 / night"
         total="₹15,989 total"
+        path="/palace"
       />
       <SearchpageContent
         src="https://a0.muscache.com/im/pictures/miso/Hosting-715131262214705111/original/ea0aed6b-a899-4ae7-b709-558b2d479707.jpeg?im_w=720"
@@ -59,6 +63,7 @@ const Search = () => {
         star={4.33}
         price="₹8,452 / night"
         total="₹14,450 total"
+        path="/privatestay"
       />
 
       <SearchpageContent
@@ -69,6 +74,7 @@ const Search = () => {
         star={4.26}
         price="₹6,452 / night"
         total="₹13,500 total"
+        path="/guesthouse"
       />
     </div>
   );

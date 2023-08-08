@@ -78,9 +78,15 @@
 
 .searchpage_star > Button {
   margin: 5px;
-  background-color: #ff7779;
+  background-color: #e00b41;
   text-transform: inherit;
   color: white;
+}
+
+.searchpage_star > Button:hover {
+  color: black;
+  font-size: 10px;
+  text-transform: none;
 }
 
 @media screen and (max-width: 580px) {

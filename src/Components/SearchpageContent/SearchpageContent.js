@@ -13,8 +13,16 @@ const SearchpageContent = ({
   star,
   price,
   total,
+  path,
 }) => {
   const navigate = useNavigate();
+
+  // Navigate to the dynamically provided path when the button is clicked
+
+  const handleViewButtonClick = () => {
+    navigate(path);
+  };
+
   return (
     <div className="searchpage-content">
       <img src={src} alt="" />
@@ -32,7 +40,7 @@ const SearchpageContent = ({
             <p>
               <strong>{star}</strong>
             </p>
-            <Button variant="outlined" onClick={() => navigate("/rooms")}>
+            <Button variant="outlined" onClick={handleViewButtonClick}>
               View
             </Button>
           </div>

@@ -1,0 +1,59 @@
+.rooms_container {
+  text-align: left;
+  margin: 20px;
+}
+
+.room_info {
+  padding: 10px;
+}
+
+.room_info > h2 {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.room_info > h5 {
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.room_details > p {
+  width: 80vw;
+  text-align: left;
+  margin-top: 25px;
+}
+
+.img_container {
+  display: flex;
+  margin-left: 5rem;
+}
+
+.img_container > img {
+  width: 50%;
+  height: 354px;
+  margin-right: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.img_box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img_box > img {
+  width: 290px;
+  height: 180px;
+  background-size: contain;
+  background-position-y: center;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+
+.img_box > .img-2 {
+  border-top-right-radius: 20px;
+}
+
+.img_box > .img-4 {
+  border-bottom-right-radius: 20px;
+}
