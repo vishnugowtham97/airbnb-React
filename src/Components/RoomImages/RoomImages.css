@@ -21,6 +21,7 @@
   width: 80vw;
   text-align: left;
   margin-top: 25px;
+  font-size: 14px;
 }
 
 .img_container {
@@ -56,4 +57,18 @@
 
 .img_box > .img-4 {
   border-bottom-right-radius: 20px;
+}
+
+@media screen and (max-width: 580px) {
+  .img_container {
+    flex-direction: column;
+  }
+  .img_container > img {
+    width: 100%;
+    border-radius: 20px;
+  }
+  .img_box > img {
+    border-radius: 20px;
+    margin-top: 10px;
+  }
 }

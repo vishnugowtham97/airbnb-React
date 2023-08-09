@@ -11,6 +11,7 @@ import Privatestay from "./Pages/Rooms/Privatestay";
 import Palace from "./Pages/Rooms/Palace";
 import Guesthouse from "./Pages/Rooms/Guesthouse";
 import Footer from "./Components/Footer/Footer";
+import SiteFooter from "./Components/SiteFooter/SiteFooter";
 
 const AllRoutes = () => {
   return (
@@ -26,6 +27,7 @@ const AllRoutes = () => {
         <Route path="/palace" element={<Palace />} />
         <Route path="/guesthouse" element={<Guesthouse />} />
       </Routes>
+      <SiteFooter />
       <Footer />
     </>
   );

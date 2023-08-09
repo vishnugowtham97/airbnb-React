@@ -1,0 +1,22 @@
+.sitefooter {
+  background-color: #f7f7f7;
+  text-align: left;
+  padding: 40px 10px 20px 20px;
+  border-top: 1px solid lightgray;
+  bottom: 0;
+}
+
+.sitefooter_info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sitefooter_info > .support > h4 {
+  font-weight: 300;
+}
+
+.sitefooter_info > .support > p {
+  font-size: 14px;
+  font-weight: 300;
+  color: grey;
+}

@@ -64,8 +64,22 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 15vw;
+  width: 20vw;
   margin-right: 50px;
+}
+.header_profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.header_profile > .avatar {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
 }
 
 @media screen and (max-width: 580px) {
@@ -73,7 +87,8 @@
     width: 100px;
   }
   .header_right {
-    margin-right: 10px;
+    font-size: 14px;
+    width: 15vw;
   }
   .header {
     padding: 0px;
